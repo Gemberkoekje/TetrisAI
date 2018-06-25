@@ -12,6 +12,8 @@ namespace TetrisAI.Core.Interfaces
 
         List<Vector2> GetPieces();
 
+        void Update(double delta);
+
         void MoveLeft();
         void MoveRight();
         void Rotate();
