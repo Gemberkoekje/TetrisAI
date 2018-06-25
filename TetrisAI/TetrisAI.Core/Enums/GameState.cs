@@ -7,6 +7,8 @@ namespace TetrisAI.Core.Enums
     enum GameState
     {
         NotInitialized,
-        Playing
+        Playing,
+        GameOverFilling,
+        GameOverEmptying
     }
 }

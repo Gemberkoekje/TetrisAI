@@ -12,6 +12,10 @@ namespace TetrisAI.Core.Interfaces
 
         List<Vector2> GetPieces();
 
+        List<Vector2> GetNextPieces();
+
+        int GetScore();
+
         void Update(double delta);
 
         void MoveLeft();
