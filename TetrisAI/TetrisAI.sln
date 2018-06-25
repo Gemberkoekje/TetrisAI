@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TetrisAI.Core", "TetrisAI.Core\TetrisAI.Core.csproj", "{8703FF36-7FD2-43EA-97D5-4DA43BDAF826}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TetrisAI.Core", "TetrisAI.Core\TetrisAI.Core.csproj", "{8703FF36-7FD2-43EA-97D5-4DA43BDAF826}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TetrisAI.Console", "TetrisAI.Console\TetrisAI.Console.csproj", "{ADC90336-B03A-4B6E-B07A-5FF15C09DA12}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{8703FF36-7FD2-43EA-97D5-4DA43BDAF826}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8703FF36-7FD2-43EA-97D5-4DA43BDAF826}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8703FF36-7FD2-43EA-97D5-4DA43BDAF826}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADC90336-B03A-4B6E-B07A-5FF15C09DA12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADC90336-B03A-4B6E-B07A-5FF15C09DA12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADC90336-B03A-4B6E-B07A-5FF15C09DA12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADC90336-B03A-4B6E-B07A-5FF15C09DA12}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
